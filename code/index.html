@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Tic Tac Toe</h1>
+<p id="status">Choose your symbol to start</p>
+
+<!-- Symbol Selection Popup -->
+<div id="symbolModal" class="modal">
+  <div class="modal-content">
+    <h2>Choose your symbol</h2>
+    <button onclick="chooseSymbol('X')">X</button>
+    <button onclick="chooseSymbol('O')">O</button>
+  </div>
+</div>
+
+<div class="board">
+    <div class="cell" onclick="playerMove(0)"></div>
+    <div class="cell" onclick="playerMove(1)"></div>
+    <div class="cell" onclick="playerMove(2)"></div>
+    <div class="cell" onclick="playerMove(3)"></div>
+    <div class="cell" onclick="playerMove(4)"></div>
+    <div class="cell" onclick="playerMove(5)"></div>
+    <div class="cell" onclick="playerMove(6)"></div>
+    <div class="cell" onclick="playerMove(7)"></div>
+    <div class="cell" onclick="playerMove(8)"></div>
+</div>
+
+<button onclick="resetGame()">Restart Game</button>
+
+<audio id="clickSound" src="sounds/click.mp3"></audio>
+<audio id="winSound" src="sounds/win.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

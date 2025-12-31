@@ -1,0 +1,36 @@
+
+Software
+
+Web Browser (latest version recommended)
+
+Chrome, Firefox, Edge, Safari, etc.
+
+Text Editor or IDE (optional for editing)
+
+VS Code, Sublime Text, Atom, etc.
+
+Files
+
+index.html – main HTML file
+
+style.css – styling for the board and UI
+
+script.js – game logic and AI
+
+sounds/ (optional) – folder containing:
+
+click.mp3 – sound on move
+
+win.mp3 – sound on win
+
+Features
+
+JavaScript enabled in browser
+
+Optional: Live Server extension in VS Code for auto-refresh
+
+No installation needed
+
+Purely HTML/CSS/JS – runs directly in the browser
+
+Works offline once files are downloaded
